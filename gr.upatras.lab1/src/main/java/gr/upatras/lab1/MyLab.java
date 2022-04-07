@@ -8,6 +8,7 @@ public class MyLab {
 		PersonLab p = new PersonLab();
 		p.setFirstName("TestA");
 		System.out.println("Hello " + p.getFirstName());
+		System.out.println("test");
 
 		for (int i = 0; i < 3; i++) {
 			printMyPerson(i);
